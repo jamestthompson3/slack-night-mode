@@ -1,8 +1,8 @@
 body { background: #404552; color: #d3dae3; }
 
-a { color: #90939b; }
+a { color: #264baf; }
 
-a:link, a:visited { color: #90939b; }
+a:link, a:visited { color: #3463e2; }
 
 a:hover, a:active, a:focus { color: #90939b; }
 
@@ -106,7 +106,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #d3dae3; }
 
 .channels_list_holder ul li .primary_action.im_name:hover .im_name_background, .channels_list_holder ul li .primary_action.feature_user_custom_status:hover .im_name_background, .channels_list_holder ul li .primary_action:not(.feature_user_custom_status):hover { background: #404552; }
 
-.channels_list_holder ul li.mention a { color: #d3dae3; }
+.channels_list_holder ul li.mention a { color: #e8f2ff; }
 
 .channels_list_holder ul li.unread:not(.muted_channel) .primary_action { color: #e6eaef !important; }
 
@@ -332,7 +332,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form #msg_input { background: padding-box #6b6f79; border-color: #454c5c; border-left: 0; color: #d3dae3; }
 
-#msg_form #msg_input.focus ~ .msg_mentions_button:not(.hover) { color: #d3dae3; }
+#msg_form #msg_input.focus ~ .msg_mentions_button:not(.hover) { color: #949494; }
 
 #msg_form .msg_mentions_button { color: #949494; }
 
@@ -2445,7 +2445,7 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #6b6f79; box-shad
 
 .rxn.menu_rxn .ts_icon, .c-reaction.menu_rxn .ts_icon, .c-reaction_add.menu_rxn .ts_icon, .c-member_slug.menu_rxn .ts_icon { color: rgba(211, 218, 227, 0.25); }
 
-a.c-member_slug--mention, a.c-member_slug--mention:hover { background-color: #fff6d1; color: #2a2f39; }
+a.c-member_slug--mention, a.c-member_slug--mention:hover { background-color: #111111; color: #2a2f39; }
 
 .modal { background-color: #404552; border: 0; box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); }
 

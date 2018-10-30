@@ -1,7 +1,7 @@
 @-moz-document regexp("https://[^./]*\\.slack\\.com/(?!pricing)(?!security).*") { body { background: #404552; color: #d3dae3; }
   a { color: #90939b; }
-  a:link, a:visited { color: #90939b; }
-  a:hover, a:active, a:focus { color: #90939b; }
+  a:link, a:visited { color: #264baf; }
+  a:hover, a:active, a:focus { color: #3463e2; }
   hr { border-bottom: 1px solid #454c5c; border-top: 1px solid #404552; }
   h1, h2, h3, h4 { color: #d3dae3; }
   h1 a { color: #d3dae3; }
@@ -52,7 +52,7 @@
   .channels_list_holder ul li .channel_name, .channels_list_holder ul li .group_name, .channels_list_holder ul li .im_name, .channels_list_holder ul li .mpim_name, .channels_list_holder ul li > a { background: #2a2f39; color: rgba(211, 218, 227, 0.8) !important; }
   .channels_list_holder ul li .channel_name:hover, .channels_list_holder ul li .group_name:hover, .channels_list_holder ul li .im_name:hover, .channels_list_holder ul li .mpim_name:hover, .channels_list_holder ul li > a:hover { background: #404552 !important; border-bottom-right-radius: 0.25rem; border-top-right-radius: 0.25rem; }
   .channels_list_holder ul li .primary_action.im_name:hover .im_name_background, .channels_list_holder ul li .primary_action.feature_user_custom_status:hover .im_name_background, .channels_list_holder ul li .primary_action:not(.feature_user_custom_status):hover { background: #404552; }
-  .channels_list_holder ul li.mention a { color: #d3dae3; }
+  .channels_list_holder ul li.mention a { color: #e8f2ff; }
   .channels_list_holder ul li.unread:not(.muted_channel) .primary_action { color: #e6eaef !important; }
   .channels_list_holder ul li.unread .prefix { color: #d3dae3 !important; opacity: 1; }
   .channels_list_holder .group_close, .channels_list_holder .im_close, .channels_list_holder .mpim_close { color: #90939b !important; }
@@ -165,7 +165,7 @@
   #message_edit_form.offline #primary_file_button { border-color: #454c5c; color: #949494; }
   #msg_form.focus #msg_input, #msg_form.focus #primary_file_button:not(:hover):not(.active) { border-color: #2a2f39; }
   #msg_form #msg_input { background: padding-box #6b6f79; border-color: #454c5c; border-left: 0; color: #d3dae3; }
-  #msg_form #msg_input.focus ~ .msg_mentions_button:not(.hover) { color: #d3dae3; }
+  #msg_form #msg_input.focus ~ .msg_mentions_button:not(.hover) { color: #949494; }
   #msg_form .msg_mentions_button { color: #949494; }
   #msg_form .msg_mentions_button:hover { color: #d3dae3; }
   #msg_input { background: #6b6f79; border-color: #454c5c; color: #d3dae3; }
@@ -1223,7 +1223,7 @@
   .rxn.c-reaction--reacted .emoji_rxn_count, .rxn.c-reaction--reacted .c-reaction__count, .c-reaction.c-reaction--reacted .emoji_rxn_count, .c-reaction.c-reaction--reacted .c-reaction__count, .c-reaction_add.c-reaction--reacted .emoji_rxn_count, .c-reaction_add.c-reaction--reacted .c-reaction__count, .c-member_slug.c-reaction--reacted .emoji_rxn_count, .c-member_slug.c-reaction--reacted .c-reaction__count { color: #d3dae3; }
   .rxn .emoji_rxn_count, .rxn .c-reaction__count, .c-reaction .emoji_rxn_count, .c-reaction .c-reaction__count, .c-reaction_add .emoji_rxn_count, .c-reaction_add .c-reaction__count, .c-member_slug .emoji_rxn_count, .c-member_slug .c-reaction__count { color: #d3dae3; }
   .rxn.menu_rxn .ts_icon, .c-reaction.menu_rxn .ts_icon, .c-reaction_add.menu_rxn .ts_icon, .c-member_slug.menu_rxn .ts_icon { color: rgba(211, 218, 227, 0.25); }
-  a.c-member_slug--mention, a.c-member_slug--mention:hover { background-color: #fff6d1; color: #2a2f39; }
+  a.c-member_slug--mention, a.c-member_slug--mention:hover { background-color: #111111; color: #2a2f39; }
   .modal { background-color: #404552; border: 0; box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); }
   .modal .close, .modal label { color: #d3dae3; }
   .modal_input_note, .modal_input_note_full_width, .input_note_special { color: #949494; }
